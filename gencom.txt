@@ -1,0 +1,191 @@
+﻿Write a command to locate the ‘Unix’ word ignoring case.
+
+
+echo ‘UNIX’ | egrep -i ‘Unix’
+
+
+Write a command to display occurrence of string ‘se’.
+
+
+Echo ‘seee’ | egrep ‘se*’
+
+
+Write a command to display line, which start with “the”.
+
+
+echo ‘the girl in the train’ | egrep ‘^the*’
+
+
+Write a command to display line, which ends with ‘India’.
+
+
+echo 'the girl in India' | egrep '*India$'
+
+
+Write a command to replace all occurrences of Unix by Linux
+
+
+sed ‘s/Unix/Linux/g’ test.txt
+
+
+To run script X1 in background so that its execution continues even user logout from the system.
+
+
+nohup execute.sh &
+To display last line of a file X1.
+
+
+Tail -1 X1
+
+
+To deny execute permission to a group of a file X1.
+
+
+Chmod 767 X1
+
+
+To create link between file X1 and X1.link
+ 
+ln -s X1 X1.link or
+ln X1 X1.link
+
+
+Forcefully delete each file from directory D10/myDir
+
+
+rm -f file_name
+find D10/myDir -type f -exec rm -irf {} \;
+
+
+Show all hidden files from D10/Mydir
+ls -ld .?*
+
+
+Sort filename by last access time from directory D10/mywork
+
+
+ls -rtlc
+
+
+Rename file chap 1 to unit 1
+
+
+mv chap1 unit1
+
+
+Find out number of lines of file chap01,words and characters
+
+
+wc chap01
+
+
+write a command to sort a line of file and also remove repeated line
+Sorting words in single line :- head -n 1 file_name|xargs -n 1|sort|xargs
+Removing repeated line with sorting :- sort -u file_name
+
+
+Command to locate the sale ignoring case
+
+
+grep -i "sale" File1
+
+
+Command to display occurrence of string ‘Sale’
+
+
+grep "Sale" File1
+
+
+Command to display line which start with ‘the’
+
+
+ grep -i "^the" File1
+
+
+Command to display line which end with ‘ia’
+
+
+grep -i "ia$" File1
+
+
+Command to print first three lines of file
+
+
+head -n 3 File1
+
+
+Command to substitute ‘unix’ with ‘Linux’
+
+
+Sed s/unix/Linux/g File1
+
+
+Write a command to display all words in file 1 that begin with digit
+
+
+grep "^[0-9]" File1
+
+
+To display total number of words and lines of files for which file name start with ‘m’
+
+
+find . -type f -printf "%f\n" | egrep '^[0-9].*' | xargs wc -lw
+
+
+To display line number before each line
+
+
+nl File1
+
+
+To display line 10 to 20 from file f1
+
+
+head -n 20 File1 > File2 | tail -n 10 File2
+
+
+To remove3 dir. Tree dir1/dir2/dir3 using single command
+
+
+rmdir -p D10/Students/Athul
+
+
+To move all files begin with digit from the parent dir to current dir
+
+
+find .. -type f -printf "%f\n" | egrep '^[0-9].*' | xargs -I {} mv ../{} .
+
+
+To convert decimal number 192 to hexadecimal
+
+
+Printf “%x\n” 192
+
+
+To give read and write permission to file f1
+
+
+Chmod 666 f1
+
+
+To display all unique words of file f1
+
+
+Uniq f1
+
+
+Explain with example the purpose of BEGIN and END block of awk utility.
+
+
+  
+
+
+
+Count occurrence of pattern ‘operating system’ in file f1.
+grep -o 'hello' 1w.txt | wc -l
+
+
+
+
+To convert decimal number 192 to hexadecimal
+Echo “obase=16; ibase=10; 192” | bc

@@ -1,0 +1,105 @@
+﻿Red - done by Ujala (storage - https://github.com/UjalaJha/Perl  , https://github.com/UjalaJha/ShellScript )
+Blue - Athul(storage-genCommands)
+
+
+File management commands,User management commands,process management,Network management ,filters etc.
+Write a command to locate the ‘Unix’  word ignoring case.
+Write a command to display occurrence of string ‘se’.
+Write a command to display line, which start with “the”.
+Write a command to display line, which ends with ‘India’.
+Write a command to replace all occurrences of Unix by Linux
+To run script X1 in background so that its execution continues even user logout from the system.
+To display last line of a file X1.
+To deny execute permission to a group of a file X1.
+To create link between file X1 and X1.link
+Forcefully delete each file from directory D10/myDir
+Show all hidden files from  D10/Mydir
+Sort filename by last access time from directory D10/mywork
+Rename file chap 1 to unit 1
+Find out number of lines of file chap01,words and characters
+write a command to sort a line of file and also remove repeated line
+Command to locate the sale ignoring case
+Command to display occurrence of string ‘Sale’
+Command to display line which start with ‘the’
+Command to display line which end with ‘ia’
+Command to print first three lines of file
+Command to substitute ‘unix’ with ‘Linux’
+Write a command to display all words in file 1 that begin with digit
+To display total number of words and lines of files for which file name start with ‘m’
+To display line number before each line
+To display line 10 to 20 from file f1
+To remove3 dir. Tree dir1/dir2/dir3 using single command
+To move all files begin with digit from the parent dir to current dir
+To convert decimal number 192 to hexadecimal
+To give read and write permission to file f1
+To display all unique words of file f1
+Explain with example the purpose of BEGIN and END block of awk utility.
+Count occurrence of pattern ‘operating system’ in file f1.
+Etc.
+
+
+Shell Script:
+1. Write a shell script to reverse a number. 
+2 Write a shell script to perform mathematical operations using menu. (+_*/ **)
+3. Write a shell script to find smallest of three numbers that are read from keyboard
+4.  Write a shell script to check the entered no is palindrome or not 
+5.  Linear Search
+6.  Binary Search
+7. Bubble Sort
+8. Selection sort
+9. Arithmetic operations using functions
+1. Write a shell script to give the result of student. Take marks of the five subjects, student name, roll no and percentage and show a message whether a student gets division as per the following rules:70% <-> distinction60%->1
+2. Write a shell script to find out the gross salary and Net_salary of an employee .
+Grosssal=Basic_sal+DA+ HRA
+ Basic_sal                                DA%                                        HRA% 
+>=20000                                        60                    30
+>=10000 and <20000        50                    25
+Else                                                40                                         20
+12) Menu driven program for following cases
+            1. To check entered number is Even odd
+            2. To check entered number is palindrome.
+            3. To check entered number is Armstrong.
+13) Program to implement calculator using command line argument.
+14) Program to display Fibonacci series and nth  term of  Fibonacci series
+   using function .
+15) To check whether given number is prime or not using function.
+16. Write a shell script to test the file is a executable file or not. 
+17.  Write a shell script to display list of all files in the current directory to which you have read write and execute permissions.
+18  Write a shell script to remove only empty files from current directory
+19. Write a shell script that accepts two file names from the command line, copies the first to second file and display the second file
+20.Write a shell script that assigns execute permission to a file
+8 Write a shell script that accepts one file and directory name and move that file to the directory and show recursive listing and long listing.
+21) Write shell script to display list of users currently logged-in,
+22) Display top 10 processes in descending order of CPU utilization and display processes with highest memory usage.
+23) Shell script program to check whether given file is a directory or not
+24)Shell script program to count number of files in a Directory
+25)Shell script program to copy contents of one file to another
+
+
+
+
+PERL
+1. Array operations
+1. Perl  script to reverse a number. 
+3  To perform mathematical operations using menu. (+_*/ **)
+4  Find smallest of three numbers that are read from keyboard
+5  Write a shell script to check the entered no is palindrome or not 
+6.  Linear Search
+7.  Bubble Sort
+8.  Arithmetic operations using functions
+9. Write a shell script to give the result of student. Take marks of the five subjects, studentname, roll no and percentage and show a message whether a student gets division as per the following rules:70% <-> distinction60%->1
+10. Write a shell script to find out the gross salary and Net_salary of an employee .
+Grosssal=Basic_sal+DA+ HRA
+ Basic_sal                                DA%                                        HRA% 
+>=20000                                        60                    30
+>=10000 and <20000        50                    25
+Else                                                40                                         20
+11) Menu driven program for following cases
+            1. To check entered number is Even odd
+            2. To check entered number is palindrome.
+            3. To check entered number is Armstrong.
+12) Program to display Fibonacci series and nth  term of  Fibonacci series
+   using function.
+13)Program to find factorial of a number using function.
+14) To check whether given number is prime or not using function.
+15) Demonstrate use of Report in Perl.
