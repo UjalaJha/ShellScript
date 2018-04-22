@@ -1,5 +1,5 @@
 #!/bin/bash
-if [[ -x "$dumy" ]]
+if [[ -x $1 ]]
 then
     echo "File is executable"
 else
