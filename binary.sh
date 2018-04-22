@@ -11,8 +11,9 @@ do
 	 echo -n "${a[$i]} "
 done
 flag=0
-beg=1
+beg=0
 end=${#a[@]}
+end=$(($end-1))
 mid=$(($beg+$end))
 mid=$(($mid/2))
 #echo $beg $end $mid
@@ -27,12 +28,12 @@ do
 	if [ ${a[$mid]} -eq $num ]
 	then
 		echo "Element found at loc $(($mid+1)) "
+		break
 	elif [ ${a[$mid]} -lt $num ]
 	then
-		beg = $(($mid+1))
-		echo $(($mid+1)) $beg
+		beg=$((mid+1))
 	else
-		end = $((mid-1))
+		end=$((mid-1))
 	fi
 done
 
